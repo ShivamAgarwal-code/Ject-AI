@@ -1,5 +1,6 @@
 import { supabase } from "@/lib/supabaseClient";
 import { v4 as uuidv4 } from "uuid";
+import React from "react";
 
 export async function POST(req: Request) {
   const { address } = await req.json();
