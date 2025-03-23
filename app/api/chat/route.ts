@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { processAIMessage } from "@/ai/ai";
 import { executeTask } from "@/ai/taskRunner";
+import React from "react";
 
 export const maxDuration = 60;
 export async function POST(req: Request) {
