@@ -1,4 +1,5 @@
 import { supabase } from "@/lib/supabaseClient";
+import React from "react";
 
 export async function getMessages(chatId: number) {
   const { data, error } = await supabase
