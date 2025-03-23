@@ -1,4 +1,5 @@
 import { txSearch } from "../tools/txSearch";
+import React from "react";
 import { createChatMessage } from "@/app/utils";
 
 export async function searchTxHash(
