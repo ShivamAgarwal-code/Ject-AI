@@ -1,5 +1,6 @@
 import { IndexerGrpcAccountPortfolioApi } from "@injectivelabs/sdk-ts";
 import { IndexerRestExplorerApi } from "@injectivelabs/sdk-ts";
+import React from "react";
 import { getNetworkEndpoints, Network } from "@injectivelabs/networks";
 import axios from "axios";
 import React from "react";
