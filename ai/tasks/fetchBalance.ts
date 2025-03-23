@@ -1,5 +1,6 @@
 import { createChatMessage } from "@/app/utils";
 import { queryOpenRouter } from "../ai";
+import React from "react";
 import { fetchInjectiveBalance } from "../tools/fetchBalances";
 
 export async function fetchBalance(
