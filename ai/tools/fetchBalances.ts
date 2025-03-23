@@ -2,6 +2,7 @@ import { IndexerGrpcAccountPortfolioApi } from "@injectivelabs/sdk-ts";
 import { IndexerRestExplorerApi } from "@injectivelabs/sdk-ts";
 import { getNetworkEndpoints, Network } from "@injectivelabs/networks";
 import axios from "axios";
+import React from "react";
 
 const endpoints = getNetworkEndpoints(Network.Mainnet);
 const indexerRestExplorerApi = new IndexerRestExplorerApi(`${endpoints.explorer}/api/explorer/v1`);
